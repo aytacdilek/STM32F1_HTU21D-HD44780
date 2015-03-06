@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.9.2 i686-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103ZE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\aytac\CooCox -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_HTU21D-HD44780\stm_lib -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_HTU21D-HD44780\stm_lib\inc -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_HTU21D-HD44780\cmsis -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_HTU21D-HD44780\bsp -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_HTU21D-HD44780 -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_HTU21D-HD44780\devices -I..\..\..\..\..\Users\aytac\CooCox\STM32F1_HTU21D-HD44780\cmsis_boot">
+      <target file="stm32f10x_htu21.o" lastModified="14bf0242134">
+         <source file="..\..\..\devices\stm32f10x_htu21.c" lastModified="14befe7a9fb"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="14bf0241d67">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14bf021ff47"/>
+      </target>
+      <target file="stm32f10x_hd44780.o" lastModified="14bf0241fe4">
+         <source file="..\..\..\devices\stm32f10x_hd44780.c" lastModified="14beb67609d"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="14bf0242090">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14bf02218b4"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14bf0241ce8">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14bf021ff4f"/>
+      </target>
+      <target file="main.o" lastModified="14bf0241e9d">
+         <source file="..\..\..\main.c" lastModified="14bf02297d0"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14bf0241e09">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14bf021ff38"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14bf0241f46">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14bf021ff41"/>
+      </target>
+      <target file="open103z_systick.o" lastModified="14bf02421ca">
+         <source file="..\..\..\bsp\open103z_systick.c" lastModified="149e0d780e0"/>
+      </target>
+   </processor>
+</history>

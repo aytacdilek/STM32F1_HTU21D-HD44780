@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=STM32F1_HTU21D-HD44780.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F1_HTU21D-HD44780 -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F1_HTU21D-HD44780/arm-gcc-link.ld -g">
+      <target file="STM32F1_HTU21D-HD44780.elf" lastModified="14bf0242412">
+         <source file="..\obj\system_stm32f10x.o" lastModified="14bf0241ce8"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="14bf0241d67"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14bf0241e09"/>
+         <source file="..\obj\main.o" lastModified="14bf0241e9d"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14bf0241f46"/>
+         <source file="..\obj\stm32f10x_hd44780.o" lastModified="14bf0241fe4"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="14bf0242090"/>
+         <source file="..\obj\stm32f10x_htu21.o" lastModified="14bf0242134"/>
+         <source file="..\obj\open103z_systick.o" lastModified="14bf02421ca"/>
+      </target>
+   </processor>
+</history>
